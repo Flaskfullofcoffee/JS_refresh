@@ -1,2 +1,23 @@
-p {
-  color: gold; }
+html, * {
+  margin: 0;
+  padding: 0; }
+
+.splashPage {
+  height: 100vh;
+  background-color: tomato; }
+
+.splashPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .splashPage h1, .splashPage input {
+    margin-bottom: 1.51vh; }
+  .splashPage h1 {
+    font-size: 2.5rem; }
+  .splashPage label {
+    font-size: 1.5rem; }
+  .splashPage button {
+    font-size: 1.5rem;
+    padding: .5vh .75vw;
+    border-radius: .5vw; }
